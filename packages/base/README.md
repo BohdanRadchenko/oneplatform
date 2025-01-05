@@ -3,7 +3,7 @@
 This library was generated with [Nx](https://nx.dev).
 
 ```bush
-npm install @oneplatformdev/base
+npm install @oneplatformdev/base lucide-react date-fns zod
 ```
 
 ## Running unit tests

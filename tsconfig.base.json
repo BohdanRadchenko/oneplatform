@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@radchenkobohdan/base": ["packages/base/src/index.ts"],
+      "@radchenkobohdan/ui": ["packages/ui/src/index.ts"],
       "@radchenkobohdan/utils": ["packages/utils/src/index.ts"]
     },
     "allowSyntheticDefaultImports": true
