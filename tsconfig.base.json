@@ -17,7 +17,8 @@
     "paths": {
       "@radchenkobohdan/base": ["packages/base/src/index.ts"],
       "@radchenkobohdan/utils": ["packages/utils/src/index.ts"]
-    }
+    },
+    "allowSyntheticDefaultImports": true
   },
   "exclude": ["node_modules", "tmp"]
 }

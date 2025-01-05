@@ -6,6 +6,8 @@ import * as path from 'path';
 import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 import { libInjectCss } from 'vite-plugin-lib-inject-css';
+import tailwind from "tailwindcss";
+import autoprefixer from "autoprefixer";
 
 const buttonEntry = {
   "button/index": path.resolve(__dirname, 'src/button/index.ts'),
@@ -51,13 +53,31 @@ export default defineConfig({
     },
     cssCodeSplit: true,
     rollupOptions: {
-      external: ['react', 'react-dom', 'react/jsx-runtime'],
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        "tailwindcss",
+        "postcss",
+        "autoprefixer",
+      ],
       output: {
         exports: 'named',
-        chunkFileNames: 'chunks/[name].[hash].js',
-        assetFileNames: 'assets/[name][extname]',
-        entryFileNames: '[name].js',
+        globals: {
+          react: 'React',
+          'react-dom': 'ReactDOM',
+          "tailwindcss": "tailwindcss",
+          "postcss": "postcss",
+        },
+        // chunkFileNames: 'chunks/[name].[hash].js',
+        // assetFileNames: 'assets/[name][extname]',
+        // entryFileNames: '[name].js',
       }
     },
   },
+  css: {
+    postcss: {
+      plugins: [tailwind, autoprefixer],
+    }
+  }
 });
