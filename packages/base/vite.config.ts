@@ -12,6 +12,7 @@ import autoprefixer from "autoprefixer";
 const buttonEntry = {
   "button/index": path.resolve(__dirname, 'src/button/index.ts'),
   "button/Button": path.resolve(__dirname, 'src/button/Button.tsx'),
+  "button/buttonVariants": path.resolve(__dirname, 'src/button/buttonVariants.ts'),
 }
 
 const entry = {
@@ -60,6 +61,8 @@ export default defineConfig({
         "tailwindcss",
         "postcss",
         "autoprefixer",
+        "class-variance-authority",
+        "@radchenkobohdan/utils",
       ],
       output: {
         exports: 'named',

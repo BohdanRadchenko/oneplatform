@@ -1,6 +1,6 @@
 {
   "name": "@radchenkobohdan/base",
-  "version": "0.0.2-beta.28",
+  "version": "0.0.2-beta.34",
   "description": "Base UI React Components.",
   "author": "One Platform Development Team",
   "keywords": [
@@ -16,6 +16,7 @@
     "url": "https://github.com/oneplatformdev/core/issues"
   },
   "homepage": "private package",
+  "source": "./index.ts",
   "main": "./index.mjs",
   "types": "./index.d.ts",
   "type": "module",
@@ -36,17 +37,29 @@
   "private": false,
   "publishConfig": {
     "access": "public",
-    "directory": "build"
+    "directory": "build",
+    "dependencies": {
+      "@radchenkobohdan/utils": "~0.0.3"
+    }
   },
-  "sideEffects": ["**/*.css"],
+  "sideEffects": [
+    "**/*.css"
+  ],
   "engines": {
     "node": ">=20"
   },
   "peerDependency": {
+    "@radchenkobohdan/utils": "~0.0.3",
+    "class-variance-authority": "^0.7.1",
     "tailwindcss": "3.4.17",
     "postcss": "8.4.49"
   },
-  "devDependency": {
+  "dependencies": {
+    "@radchenkobohdan/utils": "workspace:*",
+    "class-variance-authority": "^0.7.1",
+    "@radix-ui/react-slot": "^1.1.1"
+  },
+  "devDependencies": {
     "tailwindcss": "^3.4.17",
     "postcss": "8.4.49",
     "autoprefixer": "10.4.20"
