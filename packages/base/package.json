@@ -27,10 +27,240 @@
       "types": "./index.d.ts",
       "import": "./index.mjs"
     },
+    "./accordion": {
+      "types": "./accordion/index.d.ts",
+      "import": "./accordion/index.mjs",
+      "default": "./accordion/index.mjs"
+    },
+    "./alert": {
+      "types": "./alert/index.d.ts",
+      "import": "./alert/index.mjs",
+      "default": "./alert/index.mjs"
+    },
+    "./alert-dialob": {
+      "types": "./alert-dialob/index.d.ts",
+      "import": "./alert-dialob/index.mjs",
+      "default": "./alert-dialob/index.mjs"
+    },
+    "./aspect-ratio": {
+      "types": "./aspect-ratio/index.d.ts",
+      "import": "./aspect-ratio/index.mjs",
+      "default": "./aspect-ratio/index.mjs"
+    },
+    "./avatar": {
+      "types": "./avatar/index.d.ts",
+      "import": "./avatar/index.mjs",
+      "default": "./avatar/index.mjs"
+    },
+    "./badge": {
+      "types": "./badge/index.d.ts",
+      "import": "./badge/index.mjs",
+      "default": "./badge/index.mjs"
+    },
+    "./breadcrumb": {
+      "types": "./breadcrumb/index.d.ts",
+      "import": "./breadcrumb/index.mjs",
+      "default": "./breadcrumb/index.mjs"
+    },
     "./button": {
       "types": "./button/index.d.ts",
       "import": "./button/index.mjs",
       "default": "./button/index.mjs"
+    },
+    "./calendar": {
+      "types": "./calendar/index.d.ts",
+      "import": "./calendar/index.mjs",
+      "default": "./calendar/index.mjs"
+    },
+    "./card": {
+      "types": "./card/index.d.ts",
+      "import": "./card/index.mjs",
+      "default": "./card/index.mjs"
+    },
+    "./carousel": {
+      "types": "./carousel/index.d.ts",
+      "import": "./carousel/index.mjs",
+      "default": "./carousel/index.mjs"
+    },
+    "./chart": {
+      "types": "./chart/index.d.ts",
+      "import": "./chart/index.mjs",
+      "default": "./chart/index.mjs"
+    },
+    "./checkbox": {
+      "types": "./checkbox/index.d.ts",
+      "import": "./checkbox/index.mjs",
+      "default": "./checkbox/index.mjs"
+    },
+    "./collapsible": {
+      "types": "./collapsible/index.d.ts",
+      "import": "./collapsible/index.mjs",
+      "default": "./collapsible/index.mjs"
+    },
+    "./command": {
+      "types": "./command/index.d.ts",
+      "import": "./command/index.mjs",
+      "default": "./command/index.mjs"
+    },
+    "./dialog": {
+      "types": "./dialog/index.d.ts",
+      "import": "./dialog/index.mjs",
+      "default": "./dialog/index.mjs"
+    },
+    "./drawer": {
+      "types": "./drawer/index.d.ts",
+      "import": "./drawer/index.mjs",
+      "default": "./drawer/index.mjs"
+    },
+    "./dropdown-menu": {
+      "types": "./dropdown-menu/index.d.ts",
+      "import": "./dropdown-menu/index.mjs",
+      "default": "./dropdown-menu/index.mjs"
+    },
+    "./hooks": {
+      "types": "./hooks/index.d.ts",
+      "import": "./hooks/index.mjs",
+      "default": "./hooks/index.mjs"
+    },
+    "./hover-card": {
+      "types": "./hover-card/index.d.ts",
+      "import": "./hover-card/index.mjs",
+      "default": "./hover-card/index.mjs"
+    },
+    "./input": {
+      "types": "./input/index.d.ts",
+      "import": "./input/index.mjs",
+      "default": "./input/index.mjs"
+    },
+    "./input-otp": {
+      "types": "./input-otp/index.d.ts",
+      "import": "./input-otp/index.mjs",
+      "default": "./input-otp/index.mjs"
+    },
+    "./menubar": {
+      "types": "./menubar/index.d.ts",
+      "import": "./menubar/index.mjs",
+      "default": "./menubar/index.mjs"
+    },
+    "./navigation-menu": {
+      "types": "./navigation-menu/index.d.ts",
+      "import": "./navigation-menu/index.mjs",
+      "default": "./navigation-menu/index.mjs"
+    },
+    "./pagination": {
+      "types": "./pagination/index.d.ts",
+      "import": "./pagination/index.mjs",
+      "default": "./pagination/index.mjs"
+    },
+    "./popover": {
+      "types": "./popover/index.d.ts",
+      "import": "./popover/index.mjs",
+      "default": "./popover/index.mjs"
+    },
+    "./progress": {
+      "types": "./progress/index.d.ts",
+      "import": "./progress/index.mjs",
+      "default": "./progress/index.mjs"
+    },
+    "./radio-group": {
+      "types": "./radio-group/index.d.ts",
+      "import": "./radio-group/index.mjs",
+      "default": "./radio-group/index.mjs"
+    },
+    "./resizable": {
+      "types": "./resizable/index.d.ts",
+      "import": "./resizable/index.mjs",
+      "default": "./resizable/index.mjs"
+    },
+    "./scroll-area": {
+      "types": "./scroll-area/index.d.ts",
+      "import": "./scroll-area/index.mjs",
+      "default": "./scroll-area/index.mjs"
+    },
+    "./select": {
+      "types": "./select/index.d.ts",
+      "import": "./select/index.mjs",
+      "default": "./select/index.mjs"
+    },
+    "./separator": {
+      "types": "./separator/index.d.ts",
+      "import": "./separator/index.mjs",
+      "default": "./separator/index.mjs"
+    },
+    "./sheet": {
+      "types": "./sheet/index.d.ts",
+      "import": "./sheet/index.mjs",
+      "default": "./sheet/index.mjs"
+    },
+    "./sidebar": {
+      "types": "./sidebar/index.d.ts",
+      "import": "./sidebar/index.mjs",
+      "default": "./sidebar/index.mjs"
+    },
+    "./skeleton": {
+      "types": "./skeleton/index.d.ts",
+      "import": "./skeleton/index.mjs",
+      "default": "./skeleton/index.mjs"
+    },
+    "./slider": {
+      "types": "./slider/index.d.ts",
+      "import": "./slider/index.mjs",
+      "default": "./slider/index.mjs"
+    },
+    "./sonner": {
+      "types": "./sonner/index.d.ts",
+      "import": "./sonner/index.mjs",
+      "default": "./sonner/index.mjs"
+    },
+    "./switch": {
+      "types": "./switch/index.d.ts",
+      "import": "./switch/index.mjs",
+      "default": "./switch/index.mjs"
+    },
+    "./table": {
+      "types": "./table/index.d.ts",
+      "import": "./table/index.mjs",
+      "default": "./table/index.mjs"
+    },
+    "./tabs": {
+      "types": "./tabs/index.d.ts",
+      "import": "./tabs/index.mjs",
+      "default": "./tabs/index.mjs"
+    },
+    "./textarea": {
+      "types": "./textarea/index.d.ts",
+      "import": "./textarea/index.mjs",
+      "default": "./textarea/index.mjs"
+    },
+    "./theme": {
+      "types": "./theme/index.d.ts",
+      "import": "./theme/index.mjs",
+      "default": "./theme/index.mjs"
+    },
+    "./toast": {
+      "types": "./toast/index.d.ts",
+      "import": "./toast/index.mjs",
+      "default": "./toast/index.mjs"
+    },
+    "./toaster": {
+      "types": "./toaster/index.d.ts",
+      "import": "./toaster/index.mjs",
+      "default": "./toaster/index.mjs"
+    },
+    "./toggle": {
+      "types": "./toggle/index.d.ts",
+      "import": "./toggle/index.mjs",
+      "default": "./toggle/index.mjs"
+    },
+    "./toggle-group": {
+      "types": "./toggle-group/index.d.ts",
+      "import": "./toggle-group/index.mjs",
+      "default": "./toggle-group/index.mjs"
+    },
+    "./tooltip": {
+      "types": "./tooltip/index.d.ts",
+      "import": "./tooltip/index.mjs",
+      "default": "./tooltip/index.mjs"
     }
   },
   "license": "MIT",
