@@ -1,6 +1,6 @@
 {
   "name": "@radchenkobohdan/base",
-  "version": "0.0.2-beta.21",
+  "version": "0.0.2-beta.25",
   "description": "Base UI React Components.",
   "author": "One Platform Development Team",
   "keywords": [
@@ -32,5 +32,14 @@
       "default": "./button/index.mjs"
     }
   },
-  "sideEffects": ["**/*.css"]
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "directory": "build"
+  },
+  "sideEffects": ["**/*.css"],
+  "engines": {
+    "node": ">=20"
+  }
 }
