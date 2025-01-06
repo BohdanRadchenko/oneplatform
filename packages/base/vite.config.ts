@@ -16,6 +16,20 @@ const createEntry = (filename: string): Record<string, string> => {
   }
 }
 
+const badge = {
+  // badge
+  "badge/index": path.resolve(__dirname, 'src/badge/index.ts'),
+  "badge/Badge": path.resolve(__dirname, 'src/badge/Badge.tsx'),
+  "badge/badgeVariants": path.resolve(__dirname, 'src/badge/badgeVariants.ts'),
+}
+
+const button = {
+  // button
+  "button/index": path.resolve(__dirname, 'src/button/index.ts'),
+  "button/Button": path.resolve(__dirname, 'src/button/Button.tsx'),
+  "button/buttonVariants": path.resolve(__dirname, 'src/button/buttonVariants.ts'),
+}
+
 // TODO: create globAsync reducer func
 const entry = {
   index: path.resolve(__dirname, 'src/index.ts'),
@@ -23,15 +37,9 @@ const entry = {
   ...createEntry('alert-dialog'),
   ...createEntry('aspect-ratio'),
   ...createEntry('avatar'),
-  // badge
-  "badge/index": path.resolve(__dirname, 'src/badge/index.ts'),
-  "badge/Badge": path.resolve(__dirname, 'src/badge/Badge.tsx'),
-  "badge/badgeVariants": path.resolve(__dirname, 'src/badge/badgeVariants.ts'),
+  ...createEntry('badge'),
   ...createEntry('breadcrumb'),
-  // button
-  "button/index": path.resolve(__dirname, 'src/button/index.ts'),
-  "button/Button": path.resolve(__dirname, 'src/button/Button.tsx'),
-  "button/buttonVariants": path.resolve(__dirname, 'src/button/buttonVariants.ts'),
+  ...createEntry('button'),
   ...createEntry('calendar'),
   ...createEntry('card'),
   ...createEntry('carousel'),
